@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color:rgb(70, 64, 64);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        article{
+            background-color: lightgrey
+        }
+        nav{
+            background-color: rgb(97, 97, 97);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        article > aside{
+            background-color: rgb(145, 116, 116);
+        }
+        header{
+            background-color: rgb(180, 160, 160);
+            margin: 10px;  
+            padding: 10px;
+        }
+        Main{
+            background-color:  rgb(180, 160, 160);
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            margin: 0px;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+
+ <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+ </header>   
+ <main>
+    <section id="Assuntos"></section>
+        <article>
+            <h2>Esporte Tecnologis Educação</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, non, ratione neque harum recusandae repudiandae architecto cumque eveniet obcaecati soluta odit vitae qui quidem natus reprehenderit temporibus, at quae Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat nulla qui vitae maiores ipsum modi, beatae, enim recusandae odio iure natus incidunt aperiam ducimus excepturi eligendi, illo voluptatibus officiis?</p>
+        </article>
+    <section id="Noticias">
+        <article>
+            <h2>noticia sobre o brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quo, blanditiis odit, nobis fugit, ad in delectus cum quidem esse alias laudantium optio. Possimus perspiciatis tenetur dolore ipsam voluptate aspernatur?</p>
+            <aside>
+                <p>artigo escritto por josé da silva</p>
+            </aside>
+        </article>
+    </section>
+
+ </main>
+ <footer>
+    <p>Desenvolvido pelo curso em video</p>
+ </footer>
+</body>
+</html>
