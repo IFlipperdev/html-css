@@ -8,7 +8,7 @@
 
 
         header > h1{
-            font-size: 10vh;
+            font-size: 7em;
             font-family: 'Passion One', cursive;
             font-weight: 700;
             font-style: normal;
@@ -23,7 +23,7 @@
         }
 
         header{
-            padding: 4vh;
+            padding: 8vh;
             background-color: black;
             color: white;
             text-align: center;
@@ -33,7 +33,7 @@
         }
         main p{
             font-family: 'Sriracha', Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 8vh;
+            font-size: 3em;
             max-width: 600px;
             line-height: 2em;
             padding: 5px;
@@ -48,7 +48,7 @@
             color: white;
         }
         div#b2 > p{
-            background-color: rgba(0, 0, 0, 0.589);
+            background-color: rgba(0, 0, 0, 0.432);
             color: white;
         }
         .paralaxi{
