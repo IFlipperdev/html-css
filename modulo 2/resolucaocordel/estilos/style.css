@@ -44,7 +44,9 @@ header a:hover, footer a:hover{
     text-decoration: underline;
 }
 section.imagem p{
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 0, 0, 0.637);
+    text-shadow: 1px 1px 0px black;
+
 }
 section{
     font-family: var(--fonte3);
@@ -52,18 +54,36 @@ section{
     line-height: 2em;
     padding-left: 5vh;
     font-size: 5vw;
+
+}
+section > p{
+    padding-bottom: 2em;
+}
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+}
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 section.normal{
     background-color: white;
     color: black;
+        
 }
 section.imagem{
     background-color: rgba(0, 0, 0, 0.671);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.582);
+    background-size: cover;
 }
 section.imagem > p{
     padding: 5px;
     display: inline-block;
+
 }
 footer{
     padding: 10px;
