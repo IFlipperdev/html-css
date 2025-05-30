@@ -1,73 +1,54 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-        *{
-            margin: 0;
-            padding: 0;
-        }
-
-
-        header > h1{
-            font-size: 30vh;
-            font-family: 'Passion One', cursive;
-            font-weight: 700;
-            font-style: normal;
-        }
-        header > p a{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            text-decoration: none;
-            color: white;
-        }
-        header > p a:hover{
-            text-decoration: underline;
-        }
-
-        header{
-            padding: 8vh;
-            background-color: black;
-            color: white;
-            text-align: center;
-        }
-        main{
-            background-color: white
-        }
-        main p{
-            font-family: 'Sriracha', Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 10vh;
-            max-width: 600px;
-            line-height: 2em;
-            padding: 5px;
-        }
-        div{
-            margin-top: 50px;
-            padding: 20px;
-
-        }
-        div#b1 > p{
-            background-color: rgba(0, 0, 0, 0.432);
-            color: white;
-        }
-        div#b2 > p{
-            background-color: rgba(0, 0, 0, 0.589);
-            color: white;
-        }
-        .paralaxi{
-
-            background: white center center no-repeat fixed;
-
-        }
-        #b1{
-            background: url(../imagens/background001.jpg) center center no-repeat fixed;
-        }
-        #b2{
-
-            background: url(../imagens/background002.jpg) center center no-repeat fixed;
-        }
-        footer{
-            background-color: black;
-            color: white;
-            text-align: center;
-
-            font-size: 1em;
-            padding: 10px;
-        }
+    /* white-space: pre-line; Deixa o texto formatado no codigo html com as quebras de linha, porem a caixa fica muito grande*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: dark;
+}
+header, footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    
+    /* text-transform: uppercase; transforma todo o texto em letra maiuscula*/
+    font-variant: small-caps;
+    /*Faz as letras maiusculas que começam a palavra serem maiores das outras que tambem estão em letras maiusculas*/
+}
+header > p{
+    padding-bottom: 50px;
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.425);
+}
+section{
+    padding: 10vh 0vh;
+    line-height: 2em;
+    padding-left: 5vh;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+}
+footer{
+    padding: 10px;
+}
